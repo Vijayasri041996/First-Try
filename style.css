@@ -1,0 +1,185 @@
+/* ===== HEADER STYLES ===== */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 2, 44);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+}
+
+/* LOGO STYLES */
+.logo {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.logo h5 {
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+/* SEARCH BAR STYLING */
+.search-container {
+    position: relative;
+    width: 250px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    cursor: pointer;
+}
+
+/* BUTTON STYLING */
+button {
+    height: 35px;
+    width: 100px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: rgb(2, 2, 44);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* DROPDOWN MENU */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: rgb(2, 2, 44);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropbtn:hover {
+    background-color: rgb(4, 4, 90);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* CART STYLING */
+.cart {
+    margin-right: 20px;
+}
+
+.cart a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ===== MAIN CONTENT STYLES ===== */
+.imagess {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px; /* Fixed spacing to adjust for fixed header */
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* PRODUCT BOX */
+.img {
+    box-shadow: 0px 0px 5px 3px grey;
+    text-align: center;
+    color: rgb(2, 2, 44);
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ===== FOOTER STYLES ===== */
+
+
+
+/* FOOTER IMAGE */
+footer{
+    background-color:rgb(2, 2, 44);
+    color:white;
+    width:100%;
+    height:150px;
+    display:flex;
+    justify-content: space-evenly;
+    font-style: italic;
+    margin-top:40px;
+    /* position: fixed; */
+    font-size: 16px;
+  
+}
+li{
+    list-style:none;
+}
+.time{
+    font-size: 14px;
+}
+.Address{
+    margin-top:20px;
+    font-size:22px;
+    line-break:auto;
+    margin-top:10;
+
+}
+
